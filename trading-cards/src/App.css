@@ -1,20 +1,28 @@
 h1 {
-  color: rgba(2, 173, 185, 0.966);
+  color: rgba(182, 234, 238, 0.966);
   text-align: center;
   padding-bottom: 0%;
   padding-top: 0%;
   margin-top: 0%;
-  background: grey;
+  background-image: url("https://thumbs.gfycat.com/CluelessFirmKrill-max-1mb.gif") ;
+  background-position: 0%;
+  background-size: 10%;
+  font-family:fantasy;
+  font-size: 3em;
+  font-style: italic;
+  font-weight: bold;
 }
   
 .App {  
   text-align: center;
   background: url("https://images4.alphacoders.com/739/739453.png");
-  background-position: center;
+  background-position: 100% 0;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
   margin-top: 0%;
   background-attachment: scroll;
-
+  max-height: auto;
+  max-width:auto;
+  position: relative;
 }

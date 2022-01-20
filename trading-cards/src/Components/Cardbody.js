@@ -19,11 +19,11 @@ export default function Cardbody({
     image,
 }) {
     return (
-        <Card sx={{ maxWidth: 365, border: 85, opacity: .9,  }} >
+        <Card sx={{ maxWidth: "32.5%", border: 5, opacity: .9, position:'relative'  }} >
         <CardActionArea >
           <CardMedia 
             component="img"
-            height="500"
+            height="100%"
             image={image}
             
           />
