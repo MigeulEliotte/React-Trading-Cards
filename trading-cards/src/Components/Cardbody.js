@@ -7,6 +7,10 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 import '../App.css';
+import { spacing } from '@mui/system';
+import { borders } from '@mui/system';
+import { grey, orange } from '@mui/material/colors';
+import { clear } from '@testing-library/user-event/dist/clear';
 
 export default function Cardbody({
     name, 
@@ -15,13 +19,13 @@ export default function Cardbody({
     image,
 }) {
     return (
-        <Card sx={{ maxWidth: 345 }}>
-        <CardActionArea>
-          <CardMedia
+        <Card sx={{ maxWidth: 365, border: 85, opacity: .9,  }} >
+        <CardActionArea >
+          <CardMedia 
             component="img"
             height="500"
             image={image}
-            alt=""
+            
           />
           <CardContent >
             <Typography gutterBottom variant="h5" component="div">

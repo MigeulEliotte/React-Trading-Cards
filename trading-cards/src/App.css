@@ -1,16 +1,20 @@
 h1 {
-  color: rgba(84, 74, 221, 0.966);
+  color: rgba(2, 173, 185, 0.966);
   text-align: center;
-  object-position: top;
+  padding-bottom: 0%;
+  padding-top: 0%;
+  margin-top: 0%;
+  background: grey;
 }
   
 .App {  
   text-align: center;
-  background: url("https://i.pinimg.com/originals/a0/76/5e/a0765e7787da45412a663cc5b7dfd9a2.png");
+  background: url("https://images4.alphacoders.com/739/739453.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  padding: 3%;
-}
+  margin-top: 0%;
+  background-attachment: scroll;
 
+}
