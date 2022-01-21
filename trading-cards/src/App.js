@@ -37,7 +37,6 @@ function App() {
     <h1>
        MOB Psycho Trading Cards
     </h1>
-
     </div>
     
     <div className="App">
@@ -53,6 +52,7 @@ function App() {
                 src={Psycho.src}/>);
           })}
         </Grid>
+       
       </div></>
   );
 }
